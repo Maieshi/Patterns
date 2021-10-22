@@ -1,0 +1,33 @@
+E:\домашки\ПАК ПС\forms\forms\obj\Debug\forms.csprojAssemblyReference.cache
+E:\домашки\ПАК ПС\forms\forms\obj\Debug\forms.Form1.resources
+E:\домашки\ПАК ПС\forms\forms\obj\Debug\forms.Properties.Resources.resources
+E:\домашки\ПАК ПС\forms\forms\obj\Debug\forms.csproj.GenerateResource.cache
+E:\домашки\ПАК ПС\forms\forms\obj\Debug\forms.csproj.CoreCompileInputs.cache
+E:\домашки\ПАК ПС\forms\forms\bin\Debug\forms.exe.config
+E:\домашки\ПАК ПС\forms\forms\bin\Debug\forms.exe
+E:\домашки\ПАК ПС\forms\forms\bin\Debug\forms.pdb
+E:\домашки\ПАК ПС\forms\forms\obj\Debug\forms.exe
+E:\домашки\ПАК ПС\forms\forms\obj\Debug\forms.pdb
+E:\домашки\ПАК ПС\forms\forms\obj\Debug\forms.csproj.ResolveComReference.cache
+C:\Users\GLEBKOSH\Desktop\dz\newversion\forms\forms\bin\Debug\forms.exe.config
+C:\Users\GLEBKOSH\Desktop\dz\newversion\forms\forms\bin\Debug\forms.exe
+C:\Users\GLEBKOSH\Desktop\dz\newversion\forms\forms\bin\Debug\forms.pdb
+C:\Users\GLEBKOSH\Desktop\dz\newversion\forms\forms\obj\Debug\forms.csprojAssemblyReference.cache
+C:\Users\GLEBKOSH\Desktop\dz\newversion\forms\forms\obj\Debug\forms.csproj.ResolveComReference.cache
+C:\Users\GLEBKOSH\Desktop\dz\newversion\forms\forms\obj\Debug\forms.Form1.resources
+C:\Users\GLEBKOSH\Desktop\dz\newversion\forms\forms\obj\Debug\forms.Properties.Resources.resources
+C:\Users\GLEBKOSH\Desktop\dz\newversion\forms\forms\obj\Debug\forms.csproj.GenerateResource.cache
+C:\Users\GLEBKOSH\Desktop\dz\newversion\forms\forms\obj\Debug\forms.csproj.CoreCompileInputs.cache
+C:\Users\GLEBKOSH\Desktop\dz\newversion\forms\forms\obj\Debug\forms.exe
+C:\Users\GLEBKOSH\Desktop\dz\newversion\forms\forms\obj\Debug\forms.pdb
+C:\Users\глеб\Desktop\forms\forms\bin\Debug\forms.exe.config
+C:\Users\глеб\Desktop\forms\forms\bin\Debug\forms.exe
+C:\Users\глеб\Desktop\forms\forms\bin\Debug\forms.pdb
+C:\Users\глеб\Desktop\forms\forms\obj\Debug\forms.csprojAssemblyReference.cache
+C:\Users\глеб\Desktop\forms\forms\obj\Debug\forms.csproj.ResolveComReference.cache
+C:\Users\глеб\Desktop\forms\forms\obj\Debug\forms.Form1.resources
+C:\Users\глеб\Desktop\forms\forms\obj\Debug\forms.Properties.Resources.resources
+C:\Users\глеб\Desktop\forms\forms\obj\Debug\forms.csproj.GenerateResource.cache
+C:\Users\глеб\Desktop\forms\forms\obj\Debug\forms.csproj.CoreCompileInputs.cache
+C:\Users\глеб\Desktop\forms\forms\obj\Debug\forms.exe
+C:\Users\глеб\Desktop\forms\forms\obj\Debug\forms.pdb

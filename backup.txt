@@ -1,0 +1,130 @@
+ private void panel1_MouseDown_1(object sender, MouseEventArgs e) -- manipulator
+        {
+            panel1.Refresh();
+            
+            
+            firstp = e.Location;
+
+            
+
+            if (flag == 'T' || flag == 'R')
+            {
+                firstp = e.Location;
+                label1.Text = flag.ToString();
+            }
+            else
+            {
+                if(manipulator.CurrentFig==null||!manipulator.Click(e.Location)) //нету фигуры в манипул€торе или не попали
+                {
+                    isClick = false;
+                    foreach (Figure f in triangles)
+                    {
+                        if (f.Click(e.Location))
+
+                        {
+                            manipulator.Attach(f);
+                            isClick = true;
+
+
+
+
+                        }
+                    }
+
+                    
+                    foreach (Figure f in rectangles)// проверить другие фигуры 
+                        if (f.Click(e.Location))
+                        {
+
+                            manipulator.Attach(f);
+                            isClick = true;
+
+
+
+                        }
+
+                    if (isClick)//если среди других фигура выюрана
+                    {
+                       // label1.Text += "#";
+                        manipulator.Delta(out manipulator.dx, out manipulator.dx1, out manipulator.dy, out manipulator.dy1, firstp);
+                        manipulator.Draw(gr);
+                    }
+                    else//фигрура среди других не выбрана
+                    {
+                        //label1.Text += "@";
+                        
+                        manipulator.SetNull();//убрать выделение с текущей фигуры
+                        panel1.Refresh();//убрать отрисовку выделени€
+                    }
+                }
+                else//попали в текущую фигуру манипул€тора
+                {
+                    if(manipulator.Click(e.Location))//попали в корнер
+                    {
+                        
+                        manipulator.Delta(out manipulator.dx, out manipulator.dx1, out manipulator.dy, out manipulator.dy1, firstp);
+                        manipulator.Draw(gr);
+                        isClick = true;
+                    }
+
+                    
+                }
+            }
+
+           
+            
+
+
+        }
+
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Drawing;
+
+namespace forms
+{
+    class Strategy
+    {
+        public Figure contextStrategy;
+
+        public void Context(Figure strategy)
+        {
+            contextStrategy = strategy;
+        }
+
+        public void Draw(Graphics gr)
+        {
+            contextStrategy.Draw(gr);
+        }
+
+        public void DrawCur(Graphics gr)
+        {
+            contextStrategy.DrawCur(gr);
+        }
+
+        public bool Click(Point p )
+        {
+            return contextStrategy.Click(p);
+        }
+
+        public void Delta(Point p)
+        {
+            contextStrategy.Delta(out contextStrategy.dx,out contextStrategy.dx1,out contextStrategy.dy,out contextStrategy.dy1, p);
+        }
+
+        public void Smena(Point p )
+        {
+            contextStrategy.Smena(p);
+        }
+
+        public void Move(Point p)
+        {
+            contextStrategy.Move(p);
+        }
+    }
+}
